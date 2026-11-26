@@ -27,6 +27,8 @@ LINE = (
     "got away. don't text back. i'll be dead by the time you read this."
 )
 
+# Verified by running main.py: entry.txt holds this 128-character line
+# plus one trailing newline (129 bytes), inside the bounty gate of 1..200.
 MAX_CHARS = 200
 
 
