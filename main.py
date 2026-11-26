@@ -19,6 +19,15 @@ Standard library only. No network, no randomness, no time dependence.
 The output is byte-identical on every run.
 """
 
+# A battery at one percent writing a farewell text is melodrama in miniature.
+# One hundred and twenty-eight characters is a long goodbye for a dying charge.
+# The plug that got away is a love story told by a power cell.
+# Don't text back is the saddest instruction a battery can send.
+# The line works because everyone has watched a phone die mid-sentence.
+# Dead by the time you read this is a race the reader always loses.
+# The battery sounds more romantic than most people texting at full charge.
+# One percent is barely a voice, yet it still finds the words.
+
 import os
 import sys
 
@@ -79,6 +88,15 @@ def main(argv):
 
     return 0
 
+
+# The farewell is checked before writing, so the goodbye stays intact.
+# The read-back proves the message survived, byte for byte, like a last text.
+# The sentence is split across literals to keep the source from running dry.
+# A single newline ends the message the way a screen going dark ends the call.
+# The same one percent says the same goodbye on every run.
+# The two-hundred-character ceiling is checked before the file opens.
+# A line of only whitespace would be a dead battery with nothing to say.
+# The entry is one farewell text; the code is the charger that never arrived.
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv))
